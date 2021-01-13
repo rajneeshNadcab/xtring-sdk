@@ -9,10 +9,8 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  FSNTEST = 46688,
-  // BSCTEST = 97
-  // FSNMAIN = 32659,
-  // BSCMAIN = 56,
+  HTTEST = 256,
+  HTMAIN = 128,
 }
 
 export enum TradeType {
@@ -27,9 +25,14 @@ export enum Rounding {
 }
 
 // export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
-// export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
-export const FACTORY_ADDRESS = '0x620c4ab8f96f562bbeb29ec41330f2ae3940f674'
-export const INIT_CODE_HASH = '0x57bf00c7187a6255f99c536292d05a0e6be5d41ca1f139f136a5f3271ffa2eb1'
+
+//ht-test
+export const FACTORY_ADDRESS = '0x1D2D9EeEf55CFD2affe959d62e7842dD924Dad93'
+export const INIT_CODE_HASH = '0x0204c79e2240ab9970eed5ce98c343c48d71032e577f0aa341ca2ecfba5bb4f2'
+
+// eth-test
+// export const FACTORY_ADDRESS = '0x5C487A8a1915655bB9863d59D2519c01C1A427d7'
+// export const INIT_CODE_HASH = '0x114c9724259a17666131b2946e9649a7a5556f4be0899ae8fa0e3adc5d7ac247'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

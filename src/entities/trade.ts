@@ -245,7 +245,7 @@ export class Trade {
    * @param maxHops maximum number of hops a returned trade can make, e.g. 1 hop goes through a single pair
    * @param currentPairs used in recursion; the current list of pairs
    * @param originalAmountIn used in recursion; the original value of the currencyAmountIn parameter
-   * @param bestTrades used in recursion; the current list of best trades
+   * @param bestTrades 用于递归；当前最佳交易列表
    */
   public static bestTradeExactIn(
     pairs: Pair[],
