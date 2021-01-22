@@ -26,11 +26,13 @@ export enum Rounding {
 
 // export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
 
+// ht-main
+export const FACTORY_ADDRESS = '0xed776e576809012fb43382b37f576efbe3ab3390'
+export const INIT_CODE_HASH = '0xec98d1c1effef474f0f28b71824109c8f50ec6e9eb7e62724f6fcdd7aa966ba0'
+
 //ht-test
-// export const FACTORY_ADDRESS = '0x1D2D9EeEf55CFD2affe959d62e7842dD924Dad93'
-// export const INIT_CODE_HASH = '0x0204c79e2240ab9970eed5ce98c343c48d71032e577f0aa341ca2ecfba5bb4f2'
-export const FACTORY_ADDRESS = '0xe10c8fb871a21e27f968d3f9b3687414bc28d33a'
-export const INIT_CODE_HASH = '0x8178753bfc84d10be46e21381fd54d80a09cb52c88d9ddfbf7cc7732b13db246'
+// export const FACTORY_ADDRESS = '0x2302c14f2928bb9b68053320309b84db3702f89f'
+// export const INIT_CODE_HASH = '0xec98d1c1effef474f0f28b71824109c8f50ec6e9eb7e62724f6fcdd7aa966ba0'
 
 // eth-test
 // export const FACTORY_ADDRESS = '0x5C487A8a1915655bB9863d59D2519c01C1A427d7'
