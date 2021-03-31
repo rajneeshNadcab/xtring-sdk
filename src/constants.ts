@@ -12,6 +12,7 @@ export enum ChainId {
   HTTEST = 256,
   HTMAIN = 128,
   BNBMAIN = 56,
+  BNBTEST = 97,
   MATICMAIN = 137,
   XDAIMAIN = 100,
   FTMMAIN = 250,
