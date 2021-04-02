@@ -1,16 +1,16 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@anyswap/sdk",
   "license": "MIT",
   "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "description": "🛠 An SDK for building applications on top of Anyswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/winter520/anyswap-sdk.git",
   "keywords": [
-    "uniswap",
+    "anyswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
