@@ -10,8 +10,8 @@ export class Token extends Currency {
   public readonly chainId: ChainId
   public readonly address: string
 
-  public constructor(chainId: ChainId, address: string, decimals: number, symbol?: string, name?: string, isUnderlying?: number, isCrossChain?: number) {
-    super(decimals, symbol, name, isUnderlying, isCrossChain)
+  public constructor(chainId: ChainId, address: string, decimals: number, symbol?: string, name?: string, isCrossChain?: number) {
+    super(decimals, symbol, name, isCrossChain)
     this.chainId = chainId
     this.address = validateAndParseAddress(address)
   }
