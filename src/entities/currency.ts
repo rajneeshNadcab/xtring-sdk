@@ -9,10 +9,11 @@ import { validateSolidityTypeInstance } from '../utils'
  * The only instance of the base class `Currency` is Ether.
  */
 export class Currency {
+  public readonly address?: string
   public readonly decimals: number
   public readonly symbol?: string
   public readonly name?: string
-  public readonly isCrossChain?: number
+  public readonly underlying?: any
 
   /**
    * The only instance of the base class `Currency`.
@@ -24,15 +25,15 @@ export class Currency {
    * @param decimals decimals of the currency
    * @param symbol symbol of the currency
    * @param name of the currency
-   * @param isCrossChain of is CrossChain
+   * @param underlying of is underlying
    */
-  protected constructor(decimals: number, symbol?: string, name?: string, isCrossChain?: number) {
+  protected constructor(decimals: number, symbol?: string, name?: string, underlying?: any) {
     validateSolidityTypeInstance(JSBI.BigInt(decimals), SolidityType.uint8)
 
     this.decimals = decimals
     this.symbol = symbol
     this.name = name
-    this.isCrossChain = isCrossChain
+    this.underlying = underlying
   }
 }
 
