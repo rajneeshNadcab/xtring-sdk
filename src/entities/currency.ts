@@ -14,6 +14,7 @@ export class Currency {
   public readonly symbol?: string
   public readonly name?: string
   public readonly underlying?: any
+  public readonly chainId?: any
 
   /**
    * The only instance of the base class `Currency`.
@@ -26,14 +27,16 @@ export class Currency {
    * @param symbol symbol of the currency
    * @param name of the currency
    * @param underlying of is underlying
+   * @param chainId of is chainId
    */
-  protected constructor(decimals: number, symbol?: string, name?: string, underlying?: any) {
+  protected constructor(decimals: number, symbol?: string, name?: string, underlying?: any, chainId?: any) {
     validateSolidityTypeInstance(JSBI.BigInt(decimals), SolidityType.uint8)
 
     this.decimals = decimals
     this.symbol = symbol
     this.name = name
     this.underlying = underlying
+    this.chainId = chainId
   }
 }
 
