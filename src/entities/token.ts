@@ -71,7 +71,7 @@ export const WETH = {
   [ChainId.MATICMAIN]: new Token( ChainId.MATICMAIN, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.XDAIMAIN]: new Token( ChainId.XDAIMAIN, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.FTMMAIN]: new Token( ChainId.FTMMAIN, '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.OKEX]: new Token( ChainId.OKEX, '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.OKEX]: new Token( ChainId.OKEX, '0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.HARMONY]: new Token( ChainId.HARMONY, '0x6983D1E6DEf3690C4d616b13597A09e6193EA013', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.AVALANCHE]: new Token( ChainId.AVALANCHE, '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15', 18, 'WETH', 'Wrapped Ether'),
 }
