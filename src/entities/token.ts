@@ -10,8 +10,36 @@ export class Token extends Currency {
   public readonly chainId: ChainId
   public readonly address: string
 
-  public constructor(chainId: ChainId, address: string, decimals: number, symbol?: string, name?: string, underlying?: any) {
-    super(decimals, symbol, name, underlying)
+  public constructor(
+    chainId: ChainId,
+    address: string,
+    decimals: number,
+    symbol?: string,
+    name?: string,
+    underlying?: any,
+
+    ContractVersion?: any,
+    destChains?: any,
+    logoUrl?: any,
+    price?: any,
+    tokenid?: any,
+    version?: any,
+    routerToken?: any,
+  ) {
+    super(
+      decimals,
+      symbol,
+      name,
+      underlying,
+
+      ContractVersion,
+      destChains,
+      logoUrl,
+      price,
+      tokenid,
+      version,
+      routerToken,
+    )
     this.chainId = chainId
     this.address = validateAndParseAddress(address)
   }

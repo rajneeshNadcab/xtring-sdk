@@ -16,6 +16,14 @@ export class Currency {
   public readonly underlying?: any
   public readonly chainId?: any
 
+  public readonly ContractVersion?: any
+  public readonly destChains?: any
+  public readonly logoUrl?: any
+  public readonly price?: any
+  public readonly tokenid?: any
+  public readonly version?: any
+  public readonly routerToken?: any
+
   /**
    * The only instance of the base class `Currency`.
    */
@@ -29,7 +37,20 @@ export class Currency {
    * @param underlying of is underlying
    * @param chainId of is chainId
    */
-  protected constructor(decimals: number, symbol?: string, name?: string, underlying?: any, chainId?: any) {
+  protected constructor(
+    decimals: number,
+    symbol?: string,
+    name?: string,
+    underlying?: any,
+    chainId?: any,
+    ContractVersion?: any,
+    destChains?: any,
+    logoUrl?: any,
+    price?: any,
+    tokenid?: any,
+    version?: any,
+    routerToken?: any,
+  ) {
     validateSolidityTypeInstance(JSBI.BigInt(decimals), SolidityType.uint8)
 
     this.decimals = decimals
@@ -37,6 +58,13 @@ export class Currency {
     this.name = name
     this.underlying = underlying
     this.chainId = chainId
+    this.ContractVersion = ContractVersion
+    this.destChains = destChains
+    this.logoUrl = logoUrl
+    this.price = price
+    this.tokenid = tokenid
+    this.version = version
+    this.routerToken = routerToken
   }
 }
 
