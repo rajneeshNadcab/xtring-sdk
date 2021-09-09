@@ -31,7 +31,7 @@ export class Token extends Currency {
       symbol,
       name,
       underlying,
-
+      chainId,
       ContractVersion,
       destChains,
       logoUrl,
