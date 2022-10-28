@@ -16,10 +16,10 @@ First clone the repository:
 git clone https://github.com/Anyswap/anyswap-sdk.git
 ```
 
-Move into the anyswap-sdk working directory
+Move into the xtring-sdk working directory
 
 ```sh
-cd anyswap-sdk/
+cd xtring-sdk/
 ```
 
 Install dependencies
