@@ -11,7 +11,7 @@
   "repository": "https://github.com/winter520/anyswap-sdk.git",
   "keywords": [
     "xtring",
-    "ethereum"
+    "analog"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
