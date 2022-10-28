@@ -1,8 +1,8 @@
 {
-  "name": "anyswap-sdk",
+  "name": "xtring-sdk",
   "license": "MIT",
   "version": "3.0.11",
-  "description": "🛠 An SDK for building applications on top of Anyswap.",
+  "description": "🛠 An SDK for building applications on top of Xtring.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "repository": "https://github.com/winter520/anyswap-sdk.git",
   "keywords": [
-    "anyswap",
+    "xtring",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
