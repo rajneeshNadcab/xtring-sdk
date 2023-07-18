@@ -93,6 +93,9 @@ export const WETH = {
   [ChainId.KOVAN]: new Token( ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.BNBTEST]: new Token( ChainId.BNBTEST, '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MATICTEST]: new Token( ChainId.MATICTEST, '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.TARALTEST]: new Token( ChainId.TARALTEST, '0x0DB2FB46d693Fb50F4591Ef8D558eb05d8cd3dFa', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.RABBITTEST]:new Token( ChainId.RABBITTEST, '0x9C88330C8aB3Cf53EeF61F4b2E7b2eC8c1e7E164', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.TARALTEST]: new Token( ChainId.TARALTEST, '0x2Ad8d4E76F71737b0FAb0cd0d86112436BcEfA2F', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.MARKLE]: new Token( ChainId.MARKLE, '0xE266AF6bba38B3BA115236406c9d33E1D7CAD73d', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.GSCTEST]: new Token( ChainId.GSCTEST, '0x43E830e3afC3DbD94E82da2e127A03ec6F973ECC', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.ASIANTEST]: new Token( ChainId.ASIANTEST, '0x8fE68b4Ee4912d2819B9F7aefEB67dF817509d9c', 18, 'WETH', 'Wrapped Ether'),
+
 }
