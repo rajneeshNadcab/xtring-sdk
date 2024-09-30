@@ -97,5 +97,6 @@ export const WETH = {
   [ChainId.MARKLE]: new Token( ChainId.MARKLE, '0xE266AF6bba38B3BA115236406c9d33E1D7CAD73d', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GSCTEST]: new Token( ChainId.GSCTEST, '0x43E830e3afC3DbD94E82da2e127A03ec6F973ECC', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.ASIANTEST]: new Token( ChainId.ASIANTEST, '0x8fE68b4Ee4912d2819B9F7aefEB67dF817509d9c', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.DSC]: new Token( ChainId.DSC, '0xE8Bdf8d0CD100caddCC729D5f77fb4e5C6Cf933a', 18, 'WETH', 'Wrapped Ether'),
 
 }
