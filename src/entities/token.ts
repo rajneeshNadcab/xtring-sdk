@@ -99,6 +99,6 @@ export const WETH = {
   [ChainId.ASIANTEST]: new Token( ChainId.ASIANTEST, '0x8fE68b4Ee4912d2819B9F7aefEB67dF817509d9c', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.DSC]: new Token( ChainId.DSC, '0xA94a1986BD73750a977E90a18200cBCb5010a7d0', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.DOTBLOX]: new Token( ChainId.DOTBLOX, '0x8fE68b4Ee4912d2819B9F7aefEB67dF817509d9c', 18, 'WETH', 'Wrapped Ether'),
-
+  [ChainId.INERTIA]: new Token( ChainId.DOTBLOX, '0xA567D9B111b570cc5b68eDef188056FFfD1e2813', 18, 'WETH', 'Wrapped Ether'),
 
 }

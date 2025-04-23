@@ -12,7 +12,8 @@ export declare enum ChainId {
     GSCTEST = 1223,
     ASIANTEST = 7890,
     DOTBLOX = 7923,
-    DSC = 1555
+    DSC = 1555,
+    INERTIA = 5433
 }
 export declare enum TradeType {
     EXACT_INPUT = 0,
@@ -36,6 +37,7 @@ export declare const FACTORY_ADDRESS: {
     7890: string;
     7923: string;
     1555: string;
+    5433: string;
 };
 export declare const INIT_CODE_HASH: {
     1: string;
@@ -50,6 +52,7 @@ export declare const INIT_CODE_HASH: {
     7890: string;
     7923: string;
     1555: string;
+    5433: string;
 };
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
